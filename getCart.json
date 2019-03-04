@@ -1,0 +1,26 @@
+{
+  "amount": 330,
+  "countGoods": 3,
+  "contents": [
+    {
+      "id_product": 2,
+      "product_name": "Mango People T-shirt",
+      "price": 65,
+      "quantity": 2,
+      "src": "img/layer-3.jpg",
+      "alt": "layer-2",
+      "color": "Red",
+      "size": "XXL"
+    },
+    {
+      "id_product": 456,
+      "product_name": "Mango People T-shirt",
+      "price": 200,
+      "quantity": 1,
+      "src": "img/layer-4.jpg",
+      "alt": "layer-4",
+      "color": "Red",
+      "size": "XXL"
+    }
+  ]
+}

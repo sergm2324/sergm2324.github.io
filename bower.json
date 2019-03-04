@@ -1,0 +1,20 @@
+{
+  "name": "profiphp",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ui": "^1.12.1",
+    "owl.carousel": "OwlCarousel2#^2.3.4",
+    "isotope-layout": "isotope#^3.0.6"
+  }
+}
