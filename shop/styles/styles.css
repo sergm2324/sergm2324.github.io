@@ -1,0 +1,926 @@
+@font-face {
+    font-family: Raleway;
+    src: url('../fonts/Kurale-regular.ttf');
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+body {
+    margin: 0;
+    background: #cdeef6;
+}
+
+.header {
+    margin: 0;
+    height: 700px;
+    background: url(../images/indexBack.jpg) center center;
+    background-size: cover;
+}
+
+@media (max-width: 767px) {
+    .header {
+        height: 835px;
+    }
+}
+
+.xsNavbar {
+    border:none;
+    margin: 0 -15px;
+    z-index: 1;
+}
+
+.navbar-brand.xsLogo {
+    font-size: 20px;
+    font-family: "Raleway",sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    background: url(../images/logo1.png) no-repeat 15px center;
+    background-size: 15%;
+    padding-left: 55px;
+}
+
+.logo {
+    display: block;
+    background: url(../images/logo1.png) no-repeat center top;
+    width: 125px;
+    height: 111px;
+    position: absolute;
+    top: 24px;
+    left: 69px;
+    padding-top: 89px;
+    font-size: 21px;
+    font-family: "Raleway",sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+.logo:hover {
+    text-decoration: none;
+    color:black;
+}
+
+.header .container {
+    position: relative;
+}
+
+
+.headerIcons {
+    position: absolute;
+    right: 64px;
+    top: 50px;
+    width: 118px;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 767px) {
+    .headerIcons {
+        right: 99px;
+        top: 71px;
+    }
+}
+.facebook {
+    float: right;
+    display:block;
+    background: url("../images/facebook-icon.png") no-repeat;
+    width: 8px;
+    height: 16px;
+}
+
+.facebook:hover {
+    filter: invert(1);
+}
+
+
+.twitter {
+    float: right;
+    display:block;
+    background: url("../images/twitter-icon.png") no-repeat;
+    width: 16px;
+    height: 14px;
+}
+
+.twitter:hover {
+    filter: invert(1);
+}
+
+
+.youtube {
+    float: right;
+    display:block;
+    background: url("../images/youtube-icon.png") no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+.youtube:hover {
+    filter: invert(1);
+}
+
+.pinint {
+    float: right;
+    display:block;
+    background: url("../images/pinterest-icon.png") no-repeat;
+    width: 14px;
+    height: 16px;
+}
+
+.pinint:hover {
+    filter: invert(1);
+}
+
+.instagram {
+    float: right;
+    display:block;
+    background: url("../images/insta-icon1.png") no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+.instagram:hover {
+    filter: invert(1);
+}
+
+.welcome {
+    font-family: Raleway, sans-serif;
+    text-align: left;
+    color: #333333;
+    width: 270px;
+    height: 300px;
+    background: #fff51f;
+    position: absolute;
+    top: 336px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .welcome{
+        top: 250px;
+    }
+}
+
+@media (max-width: 767px) {
+    .welcome {
+        top: 111px;
+        left: 15px;
+    }
+}
+
+
+.text_welcome {
+    display: inline-block;
+    width: 199px;
+    height: 52px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    position: absolute;
+    top:82px;
+    left:25px;
+}
+
+.text_dop {
+    display: inline-block;
+    width: 218px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.78;
+    letter-spacing: normal;
+    text-align: justify;
+    position: absolute;
+    top:179px;
+    left:22px;
+}
+
+.MainBack {
+    text-decoration: none;
+    width: 293px;
+    height: 41px;
+    display: block;
+    text-align: center;
+    background: #34ff37;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 41px;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.MainBack:hover {
+    color: #9eabbf;
+    border: 2px solid #9eabbf;
+    text-decoration: none;
+}
+
+
+.Buy {
+    text-decoration: none;
+    width: 124px;
+    height: 49px;
+    display: block;
+    text-align: center;
+    background: #fff51f;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 62px;
+}
+
+.Buy:after {
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Buy:hover{
+    color: aqua;
+    border: 2px solid #00FFFF;
+}
+
+.Buy:active{
+    color: #1913ff;
+    border: 2px solid #1913ff;
+}
+
+.jp_funride {
+    position: absolute;
+    right: 50px;
+    top: 250px;
+}
+
+
+@media (max-width: 767px) {
+    .jp_funride {
+        left: 15px;
+        top: 425px;
+    }
+}
+
+
+.text_big {
+    font-family: Raleway, sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff51f;
+}
+
+.text_small {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff51f;
+}
+
+.main_menu {
+    background-color: #26d2fc;
+}
+
+.main_menu a{
+    display: block;
+    height: 43px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    padding: 0 40px;
+}
+
+.main_menu a:first-child {
+    height: 66px;
+    line-height: 66px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.main_menu a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+.main_menu a:first-child:hover {
+    height: 66px;
+    line-height: 66px;
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.nowIsopen {
+    display: block;
+    margin-top: 30px;
+    width: 270px;
+    height: 300px;
+    position: relative;
+    background: url(../images/store.jpg) no-repeat;
+}
+
+@media (max-width: 767px) {
+    .nowIsopen {
+        display: block;
+        margin-top: 30px;
+        width: 100%;
+        height: 300px;
+        position: relative;
+        background: url(../images/store.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 992px){
+    .nowIsopen {
+        display: block;
+        margin-top: 30px;
+        width: 240px;
+        height: 300px;
+        position: relative;
+        background: url(../images/store.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+
+
+.text_now {
+    font-family: Raleway, sans-serif;
+    width: 109px;
+    height: 98px;
+    font-size: 36px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    color: #333333;
+    text-align: left;
+    position: absolute;
+    top:129px;
+    left:142px;
+}
+
+.content {
+    margin-top: -20px;
+}
+
+@media (max-width: 767px) {
+    .content {
+        margin-top: 0;
+    }
+}
+
+.ProductsHeader {
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 78px;
+    letter-spacing: normal;
+    color: #707070;
+    height: 78px;
+    background: #f8f8f8;
+    padding: 0 25px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+    .NewcontentHeader {
+        margin-top: 15px;
+    }
+}
+
+.NewProductsBlock {
+    background: #ffffff;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.Img {
+    width: 100%;
+    background-color: #eaeaea;
+    margin-bottom: 19px;
+}
+
+.productBlockNew:before,
+.productBlockHot:before {
+    font-family: "Roboto", sans-serif;
+    font-size: 9px;
+    color: #fff;
+    padding: 9px 0 0 22px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    right: 11px;
+    z-index: 1;
+}
+
+.productBlockNew:before {
+    content: "NEW";
+    background: url(../images/cornernew.png) no-repeat;
+}
+
+.productBlockHot:before {
+    content: "HOT";
+    background: url(../images/cornerhot.png) no-repeat;
+}
+
+
+.textCorner {
+    font-family: Roboto-Regular, sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 23px;
+    z-index: 2;
+    font-size: 9px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.Description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: 45px;
+}
+
+.Name {
+    text-transform: uppercase;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: italic;
+    color: #333;
+    max-height: 2.8em;
+    overflow: hidden;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+.productPriceWrap {
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    text-align: right;
+}
+
+.Price1 {
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.OldPrice {
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #e24602;
+    text-decoration: line-through;
+}
+
+.brand {
+    font-family: Roboto, sans-serif;
+    line-height: 160px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 900;
+    box-sizing: border-box;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 15px;
+}
+
+.brand img {
+    margin: 5px;
+}
+
+.InstagramFeed {
+    height: 105px;
+    background-color: #eaeaea;
+    position: relative;
+    align-items: center;
+}
+
+.instafeed {
+    display:block;
+    background: url("../images/insta-icon2.png") no-repeat;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 39px;
+    left: 431px;
+}
+
+.InstagramFeed span {
+    display: block;
+    width: 300px;
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 105px;
+    letter-spacing: normal;
+    color: #333333;
+    position: absolute;
+    top: 0;
+    left: 470px;
+}
+
+.PictureWrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .instafeed{
+        top: 39px;
+        left: 377px;
+    }
+    .InstagramFeed span {
+        top: 0;
+        left: 417px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .instafeed{
+        top: 39px;
+        left: 278px;
+    }
+    .InstagramFeed span {
+        top: 0;
+        left: 312px;
+    }
+}
+
+@media (min-width: 572px) and (max-width: 767px){
+    .instafeed{
+        top: 39px;
+        left: 169px;
+    }
+    .InstagramFeed span {
+        top: 0;
+        left: 202px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 571px){
+    .instafeed{
+        top: 39px;
+        left: 20px;
+    }
+    .InstagramFeed span {
+        top: 0;
+        left: 55px;
+    }
+}
+
+.SocialBigWrap {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FB_Big {
+    width: 390px;
+    height: 150px;
+    background-color: #3b5997;
+    text-align: center;
+    line-height: 190px;
+
+}
+
+.Tw_Big {
+    width: 390px;
+    height: 150px;
+    background-color: #3fccfd;
+    text-align: center;
+    line-height: 190px;
+}
+
+.Pin_Big {
+    width: 390px;
+    height: 150px;
+    background-color: #cb2027;
+    text-align: center;
+    line-height: 190px;
+}
+
+.footer {
+    min-height: 340px;
+    background-color: #373737;
+    color: white;
+    text-align: justify;
+}
+
+.footer > .container:before,
+.footer > .container:after {
+    display: none;
+}
+
+
+.footerInside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 75px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 991px) {
+    .FooterBlock {
+        flex-grow: 1;
+        padding: 10px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .FooterBlock:nth-child(1) {
+        margin-left: -10px;
+    }
+
+    .FooterBlock:nth-child(4) {
+        margin-right: -10px;
+    }
+
+    .FooterBlock:nth-child(5) {
+        margin: 0 -10px;
+    }
+}
+
+.FooterBlockHeader {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-bottom: 28px;
+}
+
+.BlockMenu {
+    margin-top: 28px;
+}
+
+.BlockMenu a{
+    display: block;
+    text-decoration: none;
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.TextJoin {
+    width: 195px;
+    height: 22px;
+    font-family: Roboto,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #f8f8f8;
+}
+
+.coloremail{
+    margin-top: 20px;
+    border: none;
+    width: 180px;
+    height: 30px;
+    color: rgba(51, 51, 51, 0.45);
+    font-family: Roboto,sans-serif;
+    font-size: 12px;
+    background-color: #fff51f;
+    text-align: center;
+}
+
+.FooterBlock button {
+    width: 71px;
+    height: 30px;
+    background-color: #000000;
+    color: white;
+}
+
+.coloremail:focus{
+    background: aqua;
+    color: white;
+}
+
+.Pays {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+
+.Phone {
+    padding-top: 82px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone_title, .phone_number{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.57;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.email{
+    display: flex;
+    justify-content: space-between;
+}
+
+.email_title {
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.email_name {
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    text-align: left;
+    color: #faef03;
+}
+
+.FooterCopyright {
+    background: #333;
+}
+
+.CopyrightInside {
+    min-height: 47px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .CopyrightInside {
+        flex-direction: column;
+    }
+}
+
+.CopyrightInside > div {
+    min-height: inherit;
+}
+
+.CopyrightInside:before,
+.CopyrightInside:after {
+    display: none;
+}
+
+.CopyrightText {
+    font-family: Roboto,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 50px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #dad9d9
+}
+
+.FooterSocial {
+    height: inherit;
+    width: 178px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    filter: brightness(10);
+}
+
+.Ffacebook {
+    display:block;
+    background: url("../images/facebook.png") no-repeat;
+    color: white;
+    width: 7px;
+    height: 15px;
+}
+
+.Ffacebook:hover, .Ftwitter:hover, .Fpinint:hover, .Fgoogle:hover, .Ftumblr:hover,
+.Finstagram:hover, .Frss:hover  {
+    filter: brightness(0);
+}
+
+.Ftwitter {
+    display:block;
+    background: url("../images/twitter.png") no-repeat;
+    width: 14px;
+    height: 13px;
+}
+
+.Fpinint {
+    display:block;
+    background: url("../images/pinterest.png") no-repeat;
+    width: 12px;
+    height: 15px;
+}
+
+.Fgoogle {
+    display:block;
+    background: url("../images/google-plus.png") no-repeat;
+    width: 15px;
+    height: 13px;
+}
+
+.Ftumblr {
+    display:block;
+    background: url("../images/tumblr.png") no-repeat;
+    width: 10px;
+    height: 15px;
+}
+
+.Finstagram {
+    display:block;
+    background: url("../images/instagram.png") no-repeat;
+    width: 15px;
+    height: 15px;
+}
+
+.Frss{
+    display:block;
+    background: url("../images/rss.png") no-repeat;
+    width: 15px;
+    height: 15px;
+}
+
+
